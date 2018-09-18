@@ -1,4 +1,4 @@
----
+ ---
 version: 1.3
 type: update
 build: 201807232048
@@ -37,9 +37,10 @@ targetNodes:
     - nodejs
     - apache-ruby
     - nginxruby
-homepage: https://github.com/jelastic-jps/lets-encrypt
-baseUrl: https://raw.githubusercontent.com/jelastic-jps/lets-encrypt/master
-logo: https://raw.githubusercontent.com/jelastic-jps/lets-encrypt/master/images/lets-encrypt.png
+
+homepage: https://github.com/danielstan/lets-encrypt
+baseUrl: https://raw.githubusercontent.com/danielstan/lets-encrypt/master
+logo: https://raw.githubusercontent.com/danielstan/lets-encrypt/master/images/lets-encrypt.png
 description:
   text: /text/description.md
   short: Free tool to configure support of secured SSL connection for an environment,
